@@ -1,0 +1,36 @@
+/** Navegacion principal **/
+
+.contenedor {
+    width: 98%;
+    margin: 0 auto;
+}
+html{
+    background-color:#CEECF2;
+}
+
+/** Tablero **/
+
+.tablero {
+    width: 1500px;
+    height: 1500px;
+    background-color: #BF9E75;
+}
+
+div.clara {
+    background-color: #03A696;
+}
+
+div.oscura {
+    background-color: #F27052;
+}
+
+div.casilla {
+    width: 150px;
+    height: 150px;
+    float: left;
+    font-size: 2em;
+    text-align: center;
+    color: #035E73;
+}
+
+

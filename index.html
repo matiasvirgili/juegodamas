@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Tablero Damas</title>
+</head>
+
+<body>
+
+    <div class="barra">
+        <div class="contenedor clearfix">
+
+            <div class="menu-movil">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navegacion-principal">
+                <a href="#">Nueva partida</a>
+                <a href="#">Menu principal</a>
+                <a href="#">Reiniciar partida</a>
+                <a href="#">Salir</a>
+            </nav>
+        </div>
+    </div>
+
+    <Section class="tablero contenedor">
+        <div class="contenedor-cuadrados">
+            <div class="fila">
+                <div class="casilla letra"></div>
+                <div class="casilla letra">a</div>
+                <div class="casilla letra">b</div>
+                <div class="casilla letra">c</div>
+                <div class="casilla letra">d</div>
+                <div class="casilla letra">e</div>
+                <div class="casilla letra">f</div>
+                <div class="casilla letra">g</div>
+                <div class="casilla letra">h</div>
+                <div class="casilla letra"></div>
+            </div>
+
+            <div class="fila8">
+                <div class="casilla">
+                    <span>8</span>
+                </div>
+                <div id="a8" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="b8" class="casilla oscura">
+                    <span id="dama1negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="c8" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="d8" class="casilla oscura">
+                    <span id="dama2negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="e8" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="f8" class="casilla oscura">
+                    <span id="dama3negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="g8" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="h8" class="casilla oscura">
+                    <span id="dama4negra" class="material-icons">brightness_1</span>
+                </div>
+                <div class="casilla">
+                    <span>8</span>
+                </div>
+            </div>
+            <div class="fila7">
+                <div class="casilla">
+                    <span>7</span>
+                </div>
+                <div id="a7" class="casilla oscura">
+                    <span id="dama5negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="b7" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="c7" class="casilla oscura">
+                    <span id="dama6negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="d7" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="e7" class="casilla oscura">
+                    <span id="dama7negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="f7" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="g7" class="casilla oscura">
+                    <span id="dama8negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="h7" class="casilla clara">
+                    <span></span>
+                </div>
+                <div class="casilla">
+                    <span>7</span>
+                </div>
+            </div>
+            <div class="fila6">
+                <div class="casilla">
+                    <span>6</span>
+                </div>
+                <div id="a6" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="b6" class="casilla oscura">
+                    <span id="dama9negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="c6" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="d6" class="casilla oscura">
+                    <span id="dama10negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="e6" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="e6" class="casilla oscura">
+                    <span id="dama11negra" class="material-icons">brightness_1</span>
+                </div>
+                <div id="f6" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="g6" class="casilla oscura">
+                    <span id="dama12negra" class="material-icons">brightness_1</span>
+                </div>
+                <div class="casilla">
+                    <span>6</span>
+                </div>
+            </div>
+            <div class="fila5">
+                <div class="casilla">
+                    <span>5</span>
+                </div>
+                <div id="a5" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="b5" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="c5" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="d5" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="e5" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="f5" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="g5" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="h5" class="casilla clara">
+                    <span></span>
+                </div>
+                <div class="casilla">
+                    <span>5</span>
+                </div>
+            </div>
+            <div class="fila4">
+                <div class="casilla">
+                    <span>4</span>
+                </div>
+                <div id="a4" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="b4" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="c4" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="d4" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="e4" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="f4" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div id="g4" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="h4" class="casilla oscura">
+                    <span></span>
+                </div>
+                <div class="casilla">
+                    <span>4</span>
+                </div>
+            </div>
+            <div class="fila3">
+                <div class="casilla">
+                    <span>3</span>
+                </div>
+                <div id="a3" class="casilla oscura">
+                    <span id="dama12blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="b3" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="c3" class="casilla oscura">
+                    <span id="dama11blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="d3" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="e3" class="casilla oscura">
+                    <span id="dama10blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="f3" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="g3" class="casilla oscura">
+                    <span id="dama9blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="h3" class="casilla clara">
+                    <span></span>
+                </div>
+                <div class="casilla">
+                    <span>3</span>
+                </div>
+            </div>
+            <div class="fila2">
+                <div class="casilla">
+                    <span>2</span>
+                </div>
+                <div id="a2" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="b2" class="casilla oscura">
+                    <span id="dama8blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="c2" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="d2" class="casilla oscura">
+                    <span id="dama7blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="e2" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="f2" class="casilla oscura">
+                    <span id="dama6blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="g2" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="h2" class="casilla oscura">
+                    <span id="dama5blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div class="casilla">
+                    <span>2</span>
+                </div>
+            </div>
+            <div class="fila1">
+                <div class="casilla">
+                    <span>1</span>
+                </div>
+                <div id="a1" class="casilla oscura">
+                    <span id="dama4blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="b1" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="c1" class="casilla oscura">
+                    <span id="dama3blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="d1" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="e1" class="casilla oscura">
+                    <span id="dama2blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="f1" class="casilla clara">
+                    <span></span>
+                </div>
+                <div id="g1" class="casilla oscura">
+                    <span id="dama1blanca" class="material-icons">brightness_1</span>
+                </div>
+                <div id="h1" class="casilla clara">
+                    <span></span>
+                </div>
+                <div class="casilla">
+                    <span>1</span>
+                </div>
+            </div>
+             <div class="fila">
+                <div class="casilla letra"></div>
+                <div class="casilla letra">a</div>
+                <div class="casilla letra">b</div>
+                <div class="casilla letra">c</div>
+                <div class="casilla letra">d</div>
+                <div class="casilla letra">e</div>
+                <div class="casilla letra">f</div>
+                <div class="casilla letra">g</div>
+                <div class="casilla letra">h</div>
+                <div class="casilla letra"></div>
+            </div>
+        </div>
+
+    </Section>
+
+</body>
+
+</html>
