@@ -4,9 +4,11 @@
     width: 98%;
     margin: 0 auto;
 }
-html{
-    background-color:#CEECF2;
+
+html {
+    background-color: #CEECF2;
 }
+
 
 /** Tablero **/
 
@@ -31,6 +33,20 @@ div.casilla {
     font-size: 2em;
     text-align: center;
     color: #035E73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+div.dama {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 7px white;
+}
 
+div.blanca {
+    background-color: white;
+    box-shadow: 0 0 7px black;
+}
