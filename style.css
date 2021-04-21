@@ -32,9 +32,22 @@ body {
     align-items: center;
 }
 
-a {
+.navegacion-principal a {
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    font-size: 1.3em;
     text-decoration: none;
-    color: black;
+    transition: all .6s ease;
+    margin-right: 15px;
+    padding: 5px;
+}
+
+nav.navegacion-principal a:hover {
+    background-color: #03A696;
+}
+
+nav.navegacion-principal a:last-child:hover {
+    color: #ffff;
 }
 
 
@@ -70,11 +83,11 @@ div.dama {
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    background-color: black;
-    box-shadow: 0 0 7px white;
+    background-color: #035E73;
+    box-shadow: 0 0 7px black;
 }
 
 div.blanca {
-    background-color: white;
-    box-shadow: 0 0 7px black;
+    background-color: #84B4BF;
+    box-shadow: 0 0 7px 03A696;
 }
