@@ -9,12 +9,40 @@ html {
     background-color: #CEECF2;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/** Barra **/
+
+.barra {
+    position: fixed;
+    top: 0;
+    background-color: teal;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /** Tablero **/
 
 .tablero {
-    width: 1500px;
-    height: 1500px;
+    width: 700px;
+    height: 700px;
     background-color: #BF9E75;
 }
 
@@ -27,8 +55,8 @@ div.oscura {
 }
 
 div.casilla {
-    width: 150px;
-    height: 150px;
+    width: 70px;
+    height: 70px;
     float: left;
     font-size: 2em;
     text-align: center;
