@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #CEECF2;
+    background-color: #DDDDDD;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 .barra {
     position: fixed;
     top: 0;
-    background-color: teal;
+    background-color: #D4707A;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -46,25 +46,21 @@ nav.navegacion-principal a:hover {
     background-color: #03A696;
 }
 
-nav.navegacion-principal a:last-child:hover {
-    color: #ffff;
-}
-
 
 /** Tablero **/
 
 .tablero {
     width: 700px;
     height: 700px;
-    background-color: #BF9E75;
+    background-color: #cdcdcd;
 }
 
 div.clara {
-    background-color: #03A696;
+    background-color: #fff;
 }
 
 div.oscura {
-    background-color: #F27052;
+    background-color: #333333;
 }
 
 div.casilla {
@@ -80,14 +76,14 @@ div.casilla {
 }
 
 div.dama {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     border-radius: 50%;
-    background-color: #035E73;
-    box-shadow: 0 0 7px black;
+    background-color: #ff6961;
+    box-shadow: 0 0 7px lightslategray;
 }
 
 div.blanca {
-    background-color: #84B4BF;
-    box-shadow: 0 0 7px 03A696;
+    background-color: #DDDDDD;
+    box-shadow: 0 0 7px lightslategray;
 }
