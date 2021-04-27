@@ -1,35 +1,35 @@
-/** Navegacion principal **/
+/* Utiles */
 
 .contenedor {
+    /* creo una clase contenedor para poder reutilizarla y cumple la funcion de centrar en la pagina */
     width: 98%;
     margin: 0 auto;
 }
 
+body,
 html {
-    background-color: #DDDDDD;
-}
-
-body {
+    /* Establesco el alto y el ancho de toda la pantalla disponible y pongo color de fondo */
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color: #DDDDDD;
+    margin: 0;
 }
 
 
-/** Barra **/
+/* Navegacion principal */
 
 .barra {
-    position: fixed;
     top: 0;
     background-color: #D4707A;
     width: 100vw;
     height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.navegacion-principal {
+    width: 100%;
+    height: 100%;
 }
 
 .navegacion-principal a {
@@ -38,22 +38,55 @@ body {
     font-size: 1.3em;
     text-decoration: none;
     transition: all .6s ease;
-    margin-right: 15px;
-    padding: 5px;
+    padding: 14px;
 }
 
 nav.navegacion-principal a:hover {
-    background-color: #03A696;
+    background-color: #ffb4bf;
+}
+
+
+/* Portada */
+
+div.portada {
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #F2F0EB;
+    border-radius: 7px;
+    border: none;
+}
+
+div.portada a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #2E34A3;
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+div.portada p {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    color: gray;
 }
 
 
 /** Tablero **/
 
 .tablero {
+    margin-top: 30px;
     width: 700px;
     height: 700px;
     background-color: #cdcdcd;
+    border-radius: 5px;
 }
+
+
+/* Casillas */
 
 div.clara {
     background-color: #fff;
@@ -69,11 +102,14 @@ div.casilla {
     float: left;
     font-size: 2em;
     text-align: center;
-    color: #035E73;
+    color: #333333;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+/* Damas */
 
 div.dama {
     width: 70%;
@@ -86,4 +122,96 @@ div.dama {
 div.blanca {
     background-color: #DDDDDD;
     box-shadow: 0 0 7px lightslategray;
+}
+
+
+/*Boton iniciar juego */
+
+div.boton {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #00aae4;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2.5px solid #00aae4;
+    border-radius: 5px;
+    box-shadow: 0 0 7px blue;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2271b3;
+    border: 2.5px solid #2271b3;
+}
+
+
+/* Footer */
+
+div.pie-pagina {
+    background-color: #F2F0EB;
+    margin: 40px auto 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 7px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+}
+
+div.pie-pagina a {
+    text-decoration: none;
+    color: #2E34A3;
+}
+
+
+/* Descripcion de las reglas de el juego */
+
+div.descripcion-reglas {
+    margin: 40px auto 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    color: #333333;
+}
+
+div.pie-reglas {
+    width: 100%;
+    background-color: #F2F0EB;
+    padding: 20px;
+    display: block;
+    margin: 0 auto 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.pie-reglas p {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+}
+
+div.pie-reglas a {
+    color: #2E34A3;
+    text-decoration: none;
 }
